@@ -4,4 +4,6 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "articles#index"
+  get "/api/messages", to: "pages#message"
+
 end
