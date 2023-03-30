@@ -3,7 +3,7 @@ class PagesController < ApplicationController
   end
 
   def message
-    render(json: { message: "Hello World" }, status: :unprocessable_entity)
+    render(json: { message: "Hello World" })
   end
 
 end
